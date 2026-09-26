@@ -49,6 +49,19 @@ to every mawlid text file documenting exactly where it came from and
 its license — this folder does not accept text without a clear,
 checkable source.
 
+- `ajmeer-maulid.json`: ⚠️ **DO NOT PUSH THIS FILE TO `main`.** Text by
+  **Sheikh Shams al-'Ulama E.K. Abu Bakr Musliyar (1914–1996)** — a
+  named, recently-deceased author, unlike Manqoos Moulid's centuries-old
+  text. This is very likely still under active copyright (probably held
+  by Samastha Kerala Jam'iyyathul Ulama, the institution he led for
+  decades). Extracted from a PDF the user supplied, with that PDF's own
+  app branding (logo/App Store links/QR code images) stripped out —
+  but removing the branding does not clear the copyright on the
+  underlying text itself. Committed here only so it's ready to publish
+  the moment permission is actually obtained; publishing it before then
+  is a real copyright risk, not a formality. See its own
+  `source_note` field for the full explanation.
+
 ## Layout
 
 ```
