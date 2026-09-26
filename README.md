@@ -76,6 +76,23 @@ checkable source.
   publishing it is a real, separate copyright decision, not a
   formality.
 
+## Dua text source & license
+
+- `daily-duas.json`: 41 everyday situational duas (sleep, wudu, home,
+  masjid, travel, meals, Istikhara, Qunoot, etc.). The topic list,
+  English titles, and hadith/Quran references were carried over from a
+  user-supplied PDF (author: Haque Ashanul) — but its Arabic did not
+  extract as usable text (glyph-run scrambling), so it was not copied.
+  The Arabic here was independently reconstructed from the standard
+  hadith wording for each dua, matching the cited source (Sahih
+  al-Bukhari, Sahih Muslim, Abu Dawud, at-Tirmidhi, Ibn Majah, or the
+  cited Quran verse) — the same wording found identically across
+  published hadith collections, since these are 1,400-year-old
+  transmitted texts, not any one compiler's creative work. English
+  translations are original, not copied from the source PDF. **Not yet
+  reviewed by a scholar or the mosque community — verify before
+  treating as final**, same caveat as the Mawlid texts above.
+
 ## Layout
 
 ```
@@ -89,6 +106,11 @@ mawlid/
     manqoos-moulid.json # one file per text: sections[] of prose/poem/heading blocks
   metadata/
     texts.json           # index: which texts exist and which file each is in
+dua/
+  texts/
+    daily-duas.json     # one file per collection: duas[] of {title, reference, parts[]}
+  metadata/
+    texts.json           # index: which collections exist and which file each is in
 ```
 
 Each new content *type* gets its own top-level folder, same pattern as
