@@ -22,6 +22,33 @@ Any surah added to this folder must come from Tanzil (or another source
 with an equally clear, offline-bundling-compatible license) — not from an
 untraceable or unlicensed transcription. See "Adding a new surah" below.
 
+## Mawlid text source & license
+
+Text under `mawlid/texts/` is **not** sourced from any commercial app
+(e.g. Al Adkar) — those PDFs carry that app's own branding/App Store
+links on every page and there's no basis to assume redistribution
+rights. Instead, each text here traces to an independently and openly
+licensed source:
+
+- `manqoos-moulid.json`: text by **Sheikh Zainuddin Makhdoom** (public
+  domain — composed centuries ago), sourced via the scan on
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Manqoos_maulid_original.pdf)
+  and its transcription on Arabic Wikisource. That Wikisource
+  transcription is *not yet community-proofread* (Wikisource itself
+  flags most pages "needs correction"), so this file's text was
+  reconstructed by cross-checking it against a second, independent
+  digital edition of the same traditional text — used only as a
+  reference to catch OCR mistakes (e.g. Wikisource's raw OCR misread
+  "the seventh day" as a nonsense word in one passage; the second
+  source made the correct reading obvious), never reproduced as a
+  document itself. **This has not been reviewed by a scholar or the
+  mosque community — verify before treating it as final.**
+
+Add a `source_note` and `source_url` field (see `manqoos-moulid.json`)
+to every mawlid text file documenting exactly where it came from and
+its license — this folder does not accept text without a clear,
+checkable source.
+
 ## Layout
 
 ```
@@ -30,13 +57,18 @@ quran/
     yaseen.json        # one file per surah, full verse text
   metadata/
     surahs.json         # index: which surahs exist and which file each is in
+mawlid/
+  texts/
+    manqoos-moulid.json # one file per text: sections[] of prose/poem/heading blocks
+  metadata/
+    texts.json           # index: which texts exist and which file each is in
 ```
 
 Each new content *type* gets its own top-level folder, same pattern as
-`quran/` — e.g. a future `mawlid/` folder for the Maulid booklets, or
-`duas/` for supplications. Within a type's folder: a `metadata/` index
-file (so the app never has to hardcode filenames) plus the actual
-content files in their own subfolder.
+`quran/`/`mawlid/` — e.g. a future `duas/` for supplications. Within a
+type's folder: a `metadata/` index file (so the app never has to
+hardcode filenames) plus the actual content files in their own
+subfolder.
 
 ## Adding a new surah
 
