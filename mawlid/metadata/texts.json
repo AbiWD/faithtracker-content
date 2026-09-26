@@ -9,7 +9,13 @@
     "id": "ajmeer-maulid",
     "title_english": "Ajmeer Maulid",
     "title_arabic": "مناقب سلطان الهند الشيخ معين الدين الجشتي الأجميري",
-    "file": "ajmeer-maulid.json",
+    "file": "ajmeer-maulid.json"
+  },
+  {
+    "id": "badar-maulid",
+    "title_english": "Badar Maulid (Large)",
+    "title_arabic": "مولد بدر",
+    "file": "badar-maulid.json",
     "status": "UNCLEARED - do not publish without confirming rights (see source_note in the file and README)"
   }
 ]

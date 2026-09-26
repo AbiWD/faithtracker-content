@@ -49,18 +49,32 @@ to every mawlid text file documenting exactly where it came from and
 its license — this folder does not accept text without a clear,
 checkable source.
 
-- `ajmeer-maulid.json`: ⚠️ **DO NOT PUSH THIS FILE TO `main`.** Text by
-  **Sheikh Shams al-'Ulama E.K. Abu Bakr Musliyar (1914–1996)** — a
-  named, recently-deceased author, unlike Manqoos Moulid's centuries-old
-  text. This is very likely still under active copyright (probably held
-  by Samastha Kerala Jam'iyyathul Ulama, the institution he led for
-  decades). Extracted from a PDF the user supplied, with that PDF's own
-  app branding (logo/App Store links/QR code images) stripped out —
-  but removing the branding does not clear the copyright on the
-  underlying text itself. Committed here only so it's ready to publish
-  the moment permission is actually obtained; publishing it before then
-  is a real copyright risk, not a formality. See its own
+- `ajmeer-maulid.json`: ⚠️ Text by **Sheikh Shams al-'Ulama E.K. Abu Bakr
+  Musliyar (1914–1996)** — a named, recently-deceased author, unlike
+  Manqoos Moulid's centuries-old text. This is very likely still under
+  active copyright (probably held by Samastha Kerala Jam'iyyathul
+  Ulama, the institution he led for decades). Extracted from a PDF the
+  user supplied, with that PDF's own app branding (logo/App Store
+  links/QR code images) stripped out — but removing the branding does
+  not clear the copyright on the underlying text itself. **Pushed to
+  `main` at the user's explicit, repeated, informed direction** — no
+  permission has been obtained from a rights-holder. See its own
   `source_note` field for the full explanation.
+
+- `badar-maulid.json`: ⚠️ **DO NOT PUSH THIS FILE TO `main` without the
+  user's explicit direction, same as Ajmeer.** No author or
+  rights-holder identified at all for this specific text (unlike
+  Ajmeer, where at least the author is known). Extracted the same way
+  — user-supplied PDF, branding stripped, Quranic citations within the
+  text replaced with verified Tanzil text rather than the source PDF's
+  own badly-scrambled rendering of those verses (that PDF's calligraphic
+  font makes Quran quotations extract as unreadable fragments; the
+  prose/poetry does not have this problem). The companion-name list
+  section additionally has NOT been cross-checked against a canonical
+  published "Asma Ahl Badr" list — see its own `names` section's `note`
+  field. Committed here only so it's ready to publish once you decide;
+  publishing it is a real, separate copyright decision, not a
+  formality.
 
 ## Layout
 
