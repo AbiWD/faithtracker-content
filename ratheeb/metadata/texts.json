@@ -4,5 +4,11 @@
     "title_english": "Ratheeb al-Haddad",
     "title_arabic": "رَاتِبُ الْحَدَّادِ",
     "file": "haddad-ratheeb.json"
+  },
+  {
+    "id": "tawbah",
+    "title_english": "Dua of Tawbah (Repentance)",
+    "title_arabic": "دُعَاءُ التَّوْبَةِ",
+    "file": "dua-tawbah.json"
   }
 ]

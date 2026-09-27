@@ -111,6 +111,17 @@ checkable source.
   yet reviewed by a scholar or the mosque community — verify before
   treating as final**, same caveat as the Mawlid/Dua texts above.
 
+- `dua-tawbah.json`: a short istighfar/tawbah (repentance) dua. Topic
+  order taken from a user-supplied PDF ("തൗബ" / Thauba, published by the
+  Al Adkar app) — Arabic did not extract usably (same scrambling issue),
+  so it was read directly off the PDF's own rendered page images instead
+  of the text layer. That PDF also included a Malayalam devotional
+  narration between each Arabic phrase — omitted here (Arabic only,
+  matching this repo's other texts). The three Quranic verses quoted
+  (7:23, 3:8, 2:201) are verified Tanzil Uthmani text; the istighfar
+  phrases and closing du'a are standard, widely-published wording. **Not
+  yet reviewed by a scholar or the mosque community.**
+
 ## Layout
 
 ```
