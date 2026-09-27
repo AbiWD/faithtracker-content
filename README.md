@@ -150,6 +150,18 @@ checkable source.
   transcribed from the PDF's own rendered page images instead. **Not yet
   reviewed by a scholar or the mosque community.**
 
+## Swalath text source & license
+
+- `swalat-nariya.json`: **Salat an-Nariya** (also known as Salat
+  al-Tafrijiyah) — one of the most widely recited salawat (blessings on
+  the Prophet) in the Islamic world, a short, fixed, essentially
+  invariant text found identically across published sources worldwide.
+  Read directly off a user-supplied PDF ("Swalat Nariya", published by
+  the Al Adkar app) — its Arabic did not extract as usable, correctly-
+  ordered text (glyph-run scrambling), so it was transcribed from the
+  PDF's own rendered page image instead. **Not yet reviewed by a scholar
+  or the mosque community.**
+
 ## Layout
 
 ```
@@ -178,6 +190,11 @@ qasida/
   texts/
     burda.json           # one file per text: sections[] of poem/heading blocks
                           # (one poem block per chapter, lines[] = one verse per entry)
+  metadata/
+    texts.json            # index: which texts exist and which file each is in
+swalath/
+  texts/
+    swalat-nariya.json   # one file per text: sections[] of prose/poem/heading blocks
   metadata/
     texts.json            # index: which texts exist and which file each is in
 ```
