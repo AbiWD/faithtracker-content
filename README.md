@@ -138,6 +138,18 @@ checkable source.
   scholar or the mosque community — verify before treating as final**,
   same caveat as this repo's other reconstructed texts.
 
+- `ashraqa-baith.json`: **Ashraqa Baith** — a well-known devotional baith
+  opening with the widely-sung "Ya Nabi Salam 'Alayka" greeting, followed
+  by verses from "Ashraqal Badru 'Alayna" (in the tradition of
+  al-Barzanji's mawlid poetry) and closing supplication verses. Unlike
+  the Burda, this is not a single fixed authorial text — it's commonly
+  sung as one baith at mawlid gatherings and wording can vary slightly
+  between communities. Read directly off a user-supplied PDF ("Ashraqa
+  Baith", published by the Al Adkar app) — its Arabic did not extract as
+  usable, correctly-ordered text (glyph-run scrambling), so it was
+  transcribed from the PDF's own rendered page images instead. **Not yet
+  reviewed by a scholar or the mosque community.**
+
 ## Layout
 
 ```

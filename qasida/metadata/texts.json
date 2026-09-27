@@ -4,5 +4,11 @@
     "title_english": "Qasidat al-Burda (The Poem of the Mantle)",
     "title_arabic": "قَصِيدَةُ الْبُرْدَةِ",
     "file": "burda.json"
+  },
+  {
+    "id": "ashraqa",
+    "title_english": "Ashraqa Baith",
+    "title_arabic": "أَشْرَقَ الْبَدْرُ",
+    "file": "ashraqa-baith.json"
   }
 ]
