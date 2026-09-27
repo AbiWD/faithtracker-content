@@ -93,6 +93,24 @@ checkable source.
   reviewed by a scholar or the mosque community — verify before
   treating as final**, same caveat as the Mawlid texts above.
 
+## Ratheeb text source & license
+
+- `haddad-ratheeb.json`: **Ratheeb al-Haddad**, authored by Imam Abdullah
+  bin Alawi al-Haddad (d. 1132 AH / 1720 CE) — a centuries-old, extremely
+  widely published litany, recited daily after Maghrib in Shafi'i/
+  Hadhrami communities worldwide. The section order, structure, and
+  repeat counts were taken from a user-supplied PDF ("Haddad Ratheeb
+  (Large)", published by the Al Adkar app) — but its Arabic did not
+  extract as usable, correctly-ordered text (glyph-run scrambling), so it
+  was not copied. The Quranic portions embedded in the ratib (Al-Fatihah;
+  Ayat al-Kursi and the closing verses of Al-Baqarah, 2:284-286) are the
+  verified Tanzil Uthmani text, same source as this repo's `quran/`
+  content. The remaining tasbih/tahlil/salawat phrases and the closing
+  du'a are the standard, fixed wording of this text found identically
+  across published copies — not any one compiler's creative work. **Not
+  yet reviewed by a scholar or the mosque community — verify before
+  treating as final**, same caveat as the Mawlid/Dua texts above.
+
 ## Layout
 
 ```
@@ -111,6 +129,12 @@ dua/
     daily-duas.json     # one file per collection: duas[] of {title, reference, parts[]}
   metadata/
     texts.json           # index: which collections exist and which file each is in
+ratheeb/
+  texts/
+    haddad-ratheeb.json # one file per text: sections[] of prose/poem/heading/dhikr blocks
+                         # (dhikr = {text, repeat?, reference?} — a phrase said N times)
+  metadata/
+    texts.json           # index: which texts exist and which file each is in
 ```
 
 Each new content *type* gets its own top-level folder, same pattern as
