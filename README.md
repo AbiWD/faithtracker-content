@@ -122,6 +122,22 @@ checkable source.
   phrases and closing du'a are standard, widely-published wording. **Not
   yet reviewed by a scholar or the mosque community.**
 
+## Qasida text source & license
+
+- `burda.json`: **Qasidat al-Burda** (The Poem of the Mantle) by Imam
+  Sharaf al-Din al-Busiri (d. 694-696 AH / 1294-1297 CE) — a classical
+  Arabic poem composed over 700 years ago, public domain, one of the
+  most widely published and memorized poems in Islamic literary history
+  with an essentially invariant text across standard editions. The
+  chapter order and 160-verse structure (confirmed by the poem's own
+  closing line) were taken from a user-supplied PDF ("Burda", published
+  by the Al Adkar app) — but its Arabic did not extract as usable,
+  correctly-ordered text (glyph-run scrambling), so it was read directly
+  off the PDF's own rendered page images instead, cross-checked against
+  the standard published text of this poem. **Not yet reviewed by a
+  scholar or the mosque community — verify before treating as final**,
+  same caveat as this repo's other reconstructed texts.
+
 ## Layout
 
 ```
@@ -146,6 +162,12 @@ ratheeb/
                          # (dhikr = {text, repeat?, reference?} — a phrase said N times)
   metadata/
     texts.json           # index: which texts exist and which file each is in
+qasida/
+  texts/
+    burda.json           # one file per text: sections[] of poem/heading blocks
+                          # (one poem block per chapter, lines[] = one verse per entry)
+  metadata/
+    texts.json            # index: which texts exist and which file each is in
 ```
 
 Each new content *type* gets its own top-level folder, same pattern as
