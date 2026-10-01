@@ -1,0 +1,43 @@
+{
+  "chapter": {
+    "number": 102,
+    "name_english": "At-Takathur",
+    "name_arabic": "سورة التكاثر",
+    "revelation_type": "Meccan",
+    "total_verses": 8,
+    "verses": [
+      {
+        "verse_number": 1,
+        "arabic": "أَلْهَىٰكُمُ ٱلتَّكَاثُرُ"
+      },
+      {
+        "verse_number": 2,
+        "arabic": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ"
+      },
+      {
+        "verse_number": 3,
+        "arabic": "كَلَّا سَوْفَ تَعْلَمُونَ"
+      },
+      {
+        "verse_number": 4,
+        "arabic": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ"
+      },
+      {
+        "verse_number": 5,
+        "arabic": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ"
+      },
+      {
+        "verse_number": 6,
+        "arabic": "لَتَرَوُنَّ ٱلْجَحِيمَ"
+      },
+      {
+        "verse_number": 7,
+        "arabic": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ"
+      },
+      {
+        "verse_number": 8,
+        "arabic": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ"
+      }
+    ]
+  }
+}

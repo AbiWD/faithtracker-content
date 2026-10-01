@@ -1,0 +1,23 @@
+{
+  "chapter": {
+    "number": 108,
+    "name_english": "Al-Kawthar",
+    "name_arabic": "سورة الكوثر",
+    "revelation_type": "Meccan",
+    "total_verses": 3,
+    "verses": [
+      {
+        "verse_number": 1,
+        "arabic": "إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ"
+      },
+      {
+        "verse_number": 2,
+        "arabic": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ"
+      },
+      {
+        "verse_number": 3,
+        "arabic": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "chapter": {
+    "number": 114,
+    "name_english": "An-Nas",
+    "name_arabic": "سورة الناس",
+    "revelation_type": "Meccan",
+    "total_verses": 6,
+    "verses": [
+      {
+        "verse_number": 1,
+        "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ"
+      },
+      {
+        "verse_number": 2,
+        "arabic": "مَلِكِ ٱلنَّاسِ"
+      },
+      {
+        "verse_number": 3,
+        "arabic": "إِلَٰهِ ٱلنَّاسِ"
+      },
+      {
+        "verse_number": 4,
+        "arabic": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ"
+      },
+      {
+        "verse_number": 5,
+        "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ"
+      },
+      {
+        "verse_number": 6,
+        "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ"
+      }
+    ]
+  }
+}

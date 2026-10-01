@@ -1,0 +1,31 @@
+{
+  "chapter": {
+    "number": 113,
+    "name_english": "Al-Falaq",
+    "name_arabic": "سورة الفلق",
+    "revelation_type": "Meccan",
+    "total_verses": 5,
+    "verses": [
+      {
+        "verse_number": 1,
+        "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ"
+      },
+      {
+        "verse_number": 2,
+        "arabic": "مِن شَرِّ مَا خَلَقَ"
+      },
+      {
+        "verse_number": 3,
+        "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ"
+      },
+      {
+        "verse_number": 4,
+        "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ"
+      },
+      {
+        "verse_number": 5,
+        "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"
+      }
+    ]
+  }
+}

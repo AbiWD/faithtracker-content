@@ -1,0 +1,23 @@
+{
+  "chapter": {
+    "number": 103,
+    "name_english": "Al-Asr",
+    "name_arabic": "سورة العصر",
+    "revelation_type": "Meccan",
+    "total_verses": 3,
+    "verses": [
+      {
+        "verse_number": 1,
+        "arabic": "وَٱلْعَصْرِ"
+      },
+      {
+        "verse_number": 2,
+        "arabic": "إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ"
+      },
+      {
+        "verse_number": 3,
+        "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ"
+      }
+    ]
+  }
+}

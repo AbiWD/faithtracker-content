@@ -1,0 +1,55 @@
+{
+  "chapter": {
+    "number": 100,
+    "name_english": "Al-Adiyat",
+    "name_arabic": "سورة العاديات",
+    "revelation_type": "Meccan",
+    "total_verses": 11,
+    "verses": [
+      {
+        "verse_number": 1,
+        "arabic": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا"
+      },
+      {
+        "verse_number": 2,
+        "arabic": "فَٱلْمُورِيَٰتِ قَدْحًۭا"
+      },
+      {
+        "verse_number": 3,
+        "arabic": "فَٱلْمُغِيرَٰتِ صُبْحًۭا"
+      },
+      {
+        "verse_number": 4,
+        "arabic": "فَأَثَرْنَ بِهِۦ نَقْعًۭا"
+      },
+      {
+        "verse_number": 5,
+        "arabic": "فَوَسَطْنَ بِهِۦ جَمْعًا"
+      },
+      {
+        "verse_number": 6,
+        "arabic": "إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ"
+      },
+      {
+        "verse_number": 7,
+        "arabic": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ"
+      },
+      {
+        "verse_number": 8,
+        "arabic": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ"
+      },
+      {
+        "verse_number": 9,
+        "arabic": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ"
+      },
+      {
+        "verse_number": 10,
+        "arabic": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ"
+      },
+      {
+        "verse_number": 11,
+        "arabic": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍۢ لَّخَبِيرٌۢ"
+      }
+    ]
+  }
+}
